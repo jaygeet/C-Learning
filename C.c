@@ -8,7 +8,6 @@
 main()
 {
    printf("Hello, Goody Morning\n"); /* Print comment */
-   printf("    F       C       C       F\n")    ;
    char elect;
    printf("Add your choice:\n Z-Count Line/tabs/blanks\n Y-Unit Converter\n X-Line/words/charcaters counting\n");
    elect=getchar();
@@ -61,7 +60,8 @@ main()
     }
    if(elect=='Y'||elect=='y')
     {
-        float c=0,f=0,i=0;
+        printf("    F       C       C       F\n")    ;
+	float c=0,f=0,i=0;
         int x1=0,y1,z1,l1=0,s1=0,t1=0;
         int p;
         for (i=0;i<=Upper;i++)                /* For Loop*/
