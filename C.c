@@ -3,7 +3,8 @@
 #include <stdio.h>
 #define Step 20
 #define Lower 0
-#define Upper 10
+#define Upper 20
+#define Upper1 30
 
 main()
 {
