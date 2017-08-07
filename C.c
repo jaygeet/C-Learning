@@ -3,9 +3,11 @@
 #include <stdio.h>
 #define Step 20
 #define Lower 0
-#define Lower1 90
 #define Upper 100
-#define Lower2 1000
+
+
+
+
 
 main()
 {
