@@ -1,48 +1,27 @@
-#~/Desktop $ python3 ./P.py     ; Checkout C.c for C equivalent 
-#C-->P
+#~/Desktop $ python3 ./P.py    
 
-1) Pending while loop uncomment it
-
-for i in range(1,10):
-    a=i+2
-    b=i-2
-    print(b,i,a)
-
-
-
-
-print("Hello, Goody Morning"); # /* Print comment */
-print("F       C")    ;
-
-
-for f in range(0,300,20): #for loop
-    a=(5*(f-32))/9
-    print(f,"%.1f" % a);
- 
-'''   
-    f=0;
-   
-   while (f<=upper)                /* While Loop*/
-
-   {
-        c=(5*(f-32))/9;
-        printf ("%5.0f %10.3f\n",f,c);
-        f=f+Step;
-    }
- 
-
-  
-'''
-
-a=b=100 
-s=a+b ; # Sum */
-print(s)
-   
-z=10.2;
-x=z+s;    # Float*/
-print(x,z);
-z=a+x ; # Sum */
-print(z); 
+cars=5.333
+buses=10
+name= "AMTS"
+ml='''multi
+line'''
+print ("Total vehicles are ", cars+buses, 
+        name+'\tcars are',cars+2-3, 
+        "{} {}".format(buses,name),
+        "{0:0.4f} {1:+^10}".format(cars/2,name),
+        (name*3),
+        2*3,2**3,5%2, "\n",
+        3<<1,3>>1,2<<1,2>>1,7<<1,7>>1, "\n",
+        3<<2,3>>2,2<<2,2>>2,7<<2,7>>2, "\n",
+        2&3,3&4,2|3,3|4,2 ^ 3,3 ^ 4, ~3,
+        5<3,5>3,5>=3,5<=3,3==3,not(3!=3), 1 and 0, 0 or 1,
+        ml)
 
 
+def Print(name, buses):
+  print ("This is wonderful {0:+^20} {1}".format(name, buses))
 
+
+Print("BRTS",200)
+
+guess = int(raw_input('enter an integer:'))
